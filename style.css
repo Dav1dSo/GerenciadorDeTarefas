@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, black, rgb(38, 60, 60));
+}
+
+#container {
+    padding: 20px;
+    color: white;
+    margin: auto;
+    margin-top: 70px;
+    width: 700px;
+    height: 700px;
+    border-radius: 40px;
+    box-shadow: 15px 13px 20px 1px #2f4444;
+}
+
+#container h1 {
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#wrap {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#btn {
+    background: transparent;
+}
+
+#InputNomeTarefa {
+    color: white;
+    border: none;
+    min-width: 400px;
+    height: 45px;
+    margin: auto;
+    border: 1px solid grey;
+}
+
+#BtnCadastrar {
+    height: 50px;
+    width: 100px;;
+    color: white;
+    background: #5d6c67;
+    border-radius: 15px;
+    border: none;
+}
+
+#BtnCadastrar:hover {
+    box-shadow: 5px 0px 25px 0px #00ffff;
+}
+
+section{
+    background: transparent;
+    border-radius: 15px;
+}
+
+.deletar {
+    /* margin-left: 50px; */
+    margin: 5px;
+    height: 50px;
+    width: 100px;;
+    color: white;
+    background: rgb(255, 0, 0);
+    border-radius: 15px;
+    border: none;
+}
+
+.deletar:hover {
+    box-shadow: 5px 0px 25px 0px #700505;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
